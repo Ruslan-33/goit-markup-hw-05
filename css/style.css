@@ -561,7 +561,7 @@ footer .header-logo {
   margin-left: 80px;
 }
 .subscribe-label {
-  color: var(--white, #FFF);
+  color: var(--white, #fff);
   font-style: normal;
   font-weight: 500;
   line-height: 1.5;
@@ -577,10 +577,10 @@ footer .header-logo {
   height: 40px;
   flex-shrink: 0;
   border-radius: 4px;
-  border: 1px solid var(--white, #FFF);
+  border: 1px solid var(--white, #fff);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   background-color: transparent;
-  color: var(--white, #FFF);
+  color: var(--white, #fff);
   font-size: 12px;
   font-style: normal;
   line-height: 2;
@@ -590,7 +590,7 @@ footer .header-logo {
 }
 
 .footer-form-input::placeholder {
-  color: var(--white, #FFF);
+  color: var(--white, #fff);
   letter-spacing: 0.03em;
 }
 
@@ -799,6 +799,7 @@ footer .header-logo {
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
     0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 24px;
 }
 
 .backdrop.is-hidden .modal {
@@ -835,6 +836,30 @@ footer .header-logo {
   border: none;
 }
 
+.modal-caption {
+}
+
+/* MODAL FORM */
+
 .modal-form {
-  O
+}
+.modal-form-lable {
+}
+.modal-form-input {
+}
+.modal-form-icon {
+}
+.modal-form-comment {
+}
+.modal-form-agreement {
+}
+.checkbox {
+}
+.modal-form-desc {
+}
+.modal-form-btn {
+}
+.btn {
+}
+.btn-accent {
 }
