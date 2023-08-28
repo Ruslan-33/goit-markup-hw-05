@@ -458,7 +458,7 @@
           >Leave your contacts and we will call you back</strong
         >
         <form class="modal-form" name="review-form" novalidate method="post">
-          <div>
+          <div class="modal-form-field">
             <label class="modal-form-lable" for="user-name">Name</label>
             <input
               class="modal-form-input"
@@ -471,14 +471,14 @@
               <use href="./images/icons.svg#icon-person"></use>
             </svg>
           </div>
-          <div>
+          <div class="modal-form-field>
             <label class="modal-form-lable" for="user-tel">Phone</label>
             <input type="tel" name="user-tel" id="user-tel" required />
             <svg class="modal-form-icon" width="18" height="24">
               <use href="./images/icons.svg#icon-tel"></use>
             </svg>
           </div>
-          <div>
+          <div class="modal-form-field>
             <label class="modal-form-lable" for="user-email">Email</label>
             <input type="email" name="user-email" id="user-email" />
             <svg class="modal-form-icon" width="15" height="12">
@@ -486,20 +486,25 @@
             </svg>
           </div>
           <div>
-            <label class="modal-form-lable" for="comment">Comment</label>
+            <label class="modal-form-l" for="user-comment">Comment</label>
             <textarea
               class="modal-form-comment"
               name="comment"
               rows="7"
+              id="user-comment"
               placeholder="Text input"
             ></textarea>
           </div>
           <div>
             <label class="modal-form-agreement">
-              <input class="checkbox" type="checkbox" name="user_agreement" />
+              <input
+                class="visually-hidden checkbox"
+                type="checkbox"
+                name="user-agreement"
+              />
               <span class="modal-form-desc"
                 >I accept the terms and conditions of the
-                <a href="" target="_blank" rel="noopener noreferrer"
+                <a class="modal-form-link" href="" target="_blank" rel="noopener noreferrer"
                   >Privacy Policy</a
                 >
               </span>
