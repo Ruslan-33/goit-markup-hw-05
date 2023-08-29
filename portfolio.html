@@ -283,7 +283,7 @@
     <!-- Footer -->
     <footer class="section footer">
       <div class="container-footer container">
-        <div class="webstudio-footer container">
+        <div class="webstudio-footer">
           <a class="link header-logo" href="./index.html"
             >Web<span class="header-logo-white">Studio</span></a
           >
@@ -328,12 +328,15 @@
         <div class="footer-bottom">
           <p class="social-media-title">Subscribe</p>
           <form class="footer-form" name="subscribe_form">
-            <input
-              class="footer-form-input"
-              name="subscribe_email"
-              type="email"
-              placeholder="E-mail"
-            />
+            <label class="footer-form-lable" for="email">
+              <input
+                class="footer-form-input"
+                name="subscribe_email"
+                type="email"
+                placeholder="E-mail"
+                id="email"
+              />
+            </label>
             <button class="subscribe-btn" type="submit">
               <span class="subscribe-btn-next">Subscribe</span>
               <svg class="subscribe-plain" width="24" height="24">
